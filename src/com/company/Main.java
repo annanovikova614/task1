@@ -13,13 +13,13 @@ public class Main {
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите радиус малой окружности");
-        double scanner.nextDouble();
+        return scanner.nextDouble();
     }
     public static int readRadiusOfGreatCircle()
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите радиус большой окружности");
-        double scanner.nextDouble();
+        return scanner.nextDouble();
     }
     static double calculateArea(double r1, double r2)
     {
