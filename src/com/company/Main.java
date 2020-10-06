@@ -7,7 +7,6 @@ public class Main {
     public static void main(String[] args)
     { 
         System.out.println("Значение площади закрашенной фигуры" + calculateArea(readRadiusOfMinorCircle(), readRadiusOfGreatCircle()));
-
     }
     public static int readRadiusOfMinorCircle()
     {
