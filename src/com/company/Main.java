@@ -8,7 +8,8 @@ public class Main {
     { 
         printArea ();
     }
-    public static void printArea() {
+    public static void printArea() 
+    {
         System.out.println("Значение площади закрашенной фигуры = " + calculateArea(readRadiusOfMinorCircle(), readRadiusOfGreatCircle()));
     }
     public static int readRadiusOfMinorCircle()
