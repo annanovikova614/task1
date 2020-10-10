@@ -6,19 +6,24 @@ public class Main {
 
     public static void main(String[] args)
     { 
+        printArea ();
+    }
+    public static void printArea() {
         System.out.println("Значение площади закрашенной фигуры = " + calculateArea(readRadiusOfMinorCircle(), readRadiusOfGreatCircle()));
     }
     public static int readRadiusOfMinorCircle()
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите радиус малой окружности:");
-        return scanner.nextDouble();
+        double r1 = scanner.nextDouble();
+        return (int) r1;
     }
     public static int readRadiusOfGreatCircle()
     {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите радиус большой окружности:");
-        return scanner.nextDouble();
+        double r2 = scanner.nextDouble();
+        return (int) r2;
     }
     static double calculateArea(double r1, double r2)
     {
