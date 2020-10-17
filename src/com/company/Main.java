@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args)
     {
-        outputAreaFilledShape();
+        printAreaFilledShape();
     }
 
-    public static void outputAreaFilledShape()
+    public static void printAreaFilledShape()
     {
         double radius1 = readRadiusOfMinorCircle();
         double radius2 = readRadiusOfBigCircle();
